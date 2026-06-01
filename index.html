@@ -1,42 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LateeshJS Framework</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LateeshBook</title>
 </head>
 <body>
-
-<h1>LateeshJS Framework</h1>
-
-<div id="app"></div>
-
-<script src="index.js"></script>
-
-<script>
-const app = document.getElementById("app");
-
-const title = createElement(
-    "h2",
-    "Welcome to LateeshJS Framework v1.0"
-);
-
-render(title, app);
-
-const card = Card(
-    "Framework Demo",
-    "This card was created using LateeshJS."
-);
-
-render(card, app);
-
-const button = Button(
-    "Click Me",
-    () => alert("Hello from LateeshJS!")
-);
-
-render(button, app);
-</script>
-
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
 </body>
 </html>
